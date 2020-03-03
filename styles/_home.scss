@@ -1,0 +1,104 @@
+main {
+  max-width: 90%;
+  margin: 2rem auto 5rem;
+  text-align: center;
+  background-color: #7d1bee;
+  border: 1px solid #000;
+
+  a {
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    display: block;
+    width: 60px;
+    margin: 1rem auto;
+  }
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+
+header {
+  position: relative;
+  height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.logo {
+  flex: 1 1 20rem;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.nav-links {
+  flex: 1 1 20rem;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  display: none;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.hamburger {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+
+  div {
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+    margin-bottom: 2px;
+  }
+}
+
+.main-title {
+  color: #fff;
+  padding: 0.5rem;
+
+  h1 {
+    margin: 2rem auto;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 2rem auto;
+  }
+}
+
+.sub {
+  text-align: center;
+  font-weight: lighter;
+  font-weight: 1.3rem;
+  padding: 0.4rem;
+  margin: 1rem auto;
+}
+
+
+@media (min-width: 600px) {
+  .nav-links {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
