@@ -82,9 +82,12 @@ header {
 }
 
 @media (min-width: 1000px) {
-  main {
+
+  .main_home,
+  .main-about {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
+
 }
