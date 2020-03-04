@@ -2,6 +2,16 @@
   padding: 0.5rem;
 }
 
+.management-title,
+.dev-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 4rem auto;
+
+}
+
+
+
 .team-container {
   max-width: 90%;
   margin: 3rem auto;
@@ -19,6 +29,12 @@
 
 .team-profile-container {
   max-width: 600px;
+
+  img {
+    width: 300px;
+    margin: 0 auto;
+
+  }
 }
 
 .team-profile-container,
@@ -39,6 +55,11 @@
   }
 
 }
+
+.team-info {
+  padding: auto 4rem;
+}
+
 
 .team-container-2 {
   max-width: 90%;
